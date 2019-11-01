@@ -1,0 +1,68 @@
+table.field {
+
+}
+
+table.field td {
+    background-color: #cfe7ff;
+    border: 1px solid;
+    border-color: #81a6e2;
+    border-radius: 5px;
+    font-family: courier new;
+    font-size: 25px;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 33px;
+}
+
+table.field td.center {
+    background-color: white;
+}
+
+table.field td.hidden {
+    visibility: hidden;
+}
+
+table.field tr.correct td,
+table.field tr.correct td.center {
+    background-color: #DAFBB9;
+    border: 2px solid green;
+    width: 31px;
+    height: 31px;
+}
+
+table.field tr.incorrect td {
+    border: 2px solid red;
+    width: 31px;
+    height: 31px;
+}
+
+table.field.solved td,
+table.field.solved td.center,
+table.field.solved tr.correct td,
+table.field.solved tr.correct td.center {
+    background-color: white;
+    border: 2px solid gold;
+    box-shadow: inset 0 0 28px gold;
+    transition: box-shadow 0.5s ease-in;
+    width: 31px;
+    height: 31px;
+}
+
+table.field input {
+    font-family: courier new;
+    font-size: 25px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+h1  {
+  font-family: courier new;
+    font-size: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
